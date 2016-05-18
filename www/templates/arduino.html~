@@ -1,0 +1,22 @@
+
+<ion-tabs class="tabs-icon-top tabs-color-active-positive">
+
+
+
+<ul class="list">
+
+  <li class="item item-toggle" ng-repeat="item in botones">
+     Led {{item.id}}
+     <label class="toggle toggle-assertive">
+       <input type="checkbox" ng-click="click({{item.id}})">
+       <div class="track">
+         <div class="handle"></div>
+       </div>
+     </label>
+  </li>
+
+  ...
+
+</ul>
+
+</ion-tabs>
